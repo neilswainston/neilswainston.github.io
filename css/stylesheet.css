@@ -76,6 +76,11 @@ h1,h2,h3,h4,h5,h6
 	text-transform: uppercase;
 }
 
+#sidebar #links
+{
+	margin: 0 0 2em;
+}
+
 #sidebar #links img
 {
 	width: 16px;
@@ -115,6 +120,12 @@ h1,h2,h3,h4,h5,h6
 {
 	padding: 0px 0px 0px 16px;
 	margin: 0px;
+}
+
+#content img 
+{
+	width: 12px;
+	height: 12px;
 }
 
 #contact td
