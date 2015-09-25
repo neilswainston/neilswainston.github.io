@@ -1,0 +1,131 @@
+@CHARSET "US-ASCII";
+
+/* TAG STYLES */
+body
+{
+	font: normal 12px/1.5em "Trebuchet MS";
+	color: #666666;
+	margin: 0;
+}
+
+a,a:visited,a:active
+{
+	color: #660099;
+	text-decoration: none;
+}
+
+a:hover
+{
+	color: #660099;
+	text-decoration: underline;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	color: #660099;
+	font-family: "Trebuchet MS";
+	font-weight: normal;
+	text-transform: uppercase;
+}
+
+/* BASIC LAYOUT */
+#contain
+{
+	border-top: 2px solid #660099;
+	margin: 0;
+	padding: 5em 20em;
+}
+
+/* SIDEBAR */
+#sidebar
+{
+	float: left;
+	margin-right: 5em;
+	width: 12em;
+}
+
+#sidebar img 
+{
+	max-width: 100%;
+}
+
+#sidebar h4
+{
+	font-size: 1em;
+	font-weight: bold;
+	margin: 0 0 .1em;
+	padding: 0;
+	text-transform: uppercase;
+}
+
+#sidebar #about
+{
+	margin: 0 0 2em;
+}
+
+#sidebar #navigation
+{
+	margin: 0 0 2em;
+}
+
+#sidebar #navigation ul
+{
+	list-style: none;
+	padding: 0;
+	font-size: 0.9em;
+	text-transform: uppercase;
+}
+
+#sidebar #links img
+{
+	width: 16px;
+	height: 16px;
+}
+
+/* FRAME */
+#frame
+{
+	border: 0;
+	width: 48em;
+	height: 48em;
+}
+
+/* CONTENT */
+#content
+{
+	float: right;
+	position: fixed;
+}
+
+#content .title
+{
+	border-bottom: 1px solid #660099;
+	color: #660099;
+	display: block;
+	text-transform: uppercase;
+}
+
+#content h4
+{
+	margin: 12px 0px 3px 0px;
+	font-size: 0.9em;
+}
+
+#content ul
+{
+	padding: 0px 0px 0px 16px;
+	margin: 0px;
+}
+
+#contact td
+{
+	vertical-align: top;
+}
+
+.key
+{
+	padding: 0px 25px 10px 0px;
+    color: #660099;
+    font-size: 0.9em;
+	text-transform: uppercase;
+}

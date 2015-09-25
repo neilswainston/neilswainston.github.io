@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>Neil Swainston</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<link type="text/css" rel="stylesheet" href="css/stylesheet.css"/>
+<script type="text/javascript">
+	function setContent( filename )
+	{
+	    document.getElementById( "frame" ).src = filename;
+	}
+</script>
+</head>
+<body>
+	<div id="contain">
+	    <div id="sidebar">
+			<img src="img/neilswainston.png" alt="Neil Swainston"/>
+			<div id="about">
+				<h4>Neil Swainston</h4>
+				PhD MRSC MSB
+				<br/>Computational Biologist
+			</div>
+			<div id="navigation">
+				<ul>
+					<li><a id="about" title="About" href="#" onclick="setContent( 'about.html' );return false;">About</a></li>
+					<li><a id="about" title="People" href="#" onclick="setContent( 'people.html' );return false;">People</a></li>
+					<li><a id="about" title="Models" href="#" onclick="setContent( 'models.html' );return false;">Models</a></li>
+					<li><a id="about" title="Software" href="#" onclick="setContent( 'software.html' );return false;">Software</a></li>
+					<li><a id="about" title="Funding" href="#" onclick="setContent( 'funding.html' );return false;">Funding</a></li>
+					<li><a id="about" title="CV" href="#" onclick="setContent( 'Neil Swainston.pdf' );return false;">CV</a></li>
+					<li><a id="about" title="Contact" href="#" onclick="setContent( 'contact.html' );return false;">Contact</a></li>
+				</ul>
+			</div>
+			<div id="links">
+				<a href="http://scholar.google.co.uk/citations?user=bc32feUAAAAJ" target="_blank">
+					<img alt="Google Scholar" src="http://scholar.google.co.uk/favicon.ico" title="Google Scholar"/>
+				</a>
+				<a href="http://www.ncbi.nlm.nih.gov/sites/entrez?term=swainston%20n&amp;search=Find%20Articles&amp;cmd=search" target="_blank">
+					<img alt="PubMed" src="http://www.ncbi.nlm.nih.gov/favicon.ico" title="PubMed"/>
+				</a>
+				<a href="https://twitter.com/neilswainston" target="_blank">
+					<img alt="Twitter" src="http://www.twitter.com/favicon.ico" title="Twitter"/>
+				</a>
+			</div>
+		</div>
+		<iframe src="about.html" id="frame"></iframe>
+	</div>
+</body>           
+</html>
