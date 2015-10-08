@@ -3,7 +3,7 @@
 /* TAG STYLES */
 body
 {
-	font: normal 12px/1.5em "Trebuchet MS";
+	font: normal 12px/1.5em "Calibri";
 	color: #666666;
 	margin: 0;
 }
@@ -23,7 +23,7 @@ a:hover
 h1,h2,h3,h4,h5,h6
 {
 	color: #660099;
-	font-family: "Trebuchet MS";
+	font-family: "Calibri";
 	font-weight: normal;
 	text-transform: uppercase;
 }
