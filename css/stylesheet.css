@@ -12,26 +12,26 @@ body
 
 a,a:visited,a:active
 {
-	color: #660099;
+	color: #1c2c7c;
 	text-decoration: none;
 }
 
 a:hover
 {
-	color: #660099;
+	color: #1c2c7c;
 	text-decoration: underline;
 }
 
 h1,h2,h3,h4,h5,h6
 {
-	color: #660099;
+	color: #1c2c7c;
 	text-transform: uppercase;
 }
 
 /* BASIC LAYOUT */
 #contain
 {
-	border-top: 2px solid #660099;
+	border-top: 2px solid #1c2c7c;
 	margin: 0;
 	padding: 5em 20em;
 }
@@ -102,12 +102,13 @@ h1,h2,h3,h4,h5,h6
 {
 	float: right;
 	position: fixed;
+	overflow: scroll;
 }
 
 #content .title
 {
-	border-bottom: 1px solid #660099;
-	color: #660099;
+	border-bottom: 1px solid #1c2c7c;
+	color: #1c2c7c;
 	display: block;
 	text-transform: uppercase;
 }
@@ -138,7 +139,7 @@ h1,h2,h3,h4,h5,h6
 .key
 {
 	padding: 0px 25px 10px 0px;
-    color: #660099;
+    color: #1c2c7c;
     font-size: 0.9em;
 	text-transform: uppercase;
 }
